@@ -1,0 +1,273 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* TOP BAR */
+.top
+{
+  
+width:80%;
+margin: auto;
+
+}
+
+footer
+{
+    margin-top: 50px;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+} 
+
+.navbar
+{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    flex: 1;
+    text-align: center;
+    
+}
+
+ul li 
+{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;;
+}
+
+ul li a
+{
+    font-family: 'Quicksand';
+    text-decoration: none;
+    color: #656565;
+    padding: 0 10px;
+    position: relative;
+}
+
+/* ul li a::after
+{
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: #10CEFF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -55px;
+    transition: 0.5s;
+}
+
+ul li a:hover ::after
+{
+    width: 100%;
+} */
+
+
+/* NAVIGATION BUTTON */
+.navbar-icon img{
+    height:25px;
+    margin-left:40px;
+    cursor: pointer;
+}
+
+/* TOP CONTENT */
+
+.banner
+{
+    display: flex;
+    margin-top: 80px;
+} 
+ .left-column, .right-column
+{
+    flex-basis: 50% ;
+} 
+
+.right-column img
+{
+    width: 90%;
+    margin-left: 100px;
+    
+}
+
+.left-column
+{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.left-column h1{
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.left-column h4{
+    font-family: 'Quicksand';
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.search-box
+{
+    width: 45%;
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+    margin: 50px 0 30px;
+
+}
+
+.search-box img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.search-box input{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+}
+
+span
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #b48034;
+}
+
+/* MIDDLE CONTENT */
+
+#section
+{
+   
+    margin-top: 150px;
+    
+}
+#section h1
+{    
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Quicksand';
+    
+}
+
+.row
+{    
+    margin-top: 32px;
+    background-color:#eb9b23;
+    opacity: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top:100px ;
+    padding-bottom: 100px;
+    
+}
+
+
+/* RECOMENDED FOR YOU */
+
+.card {
+    
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+
+}
+
+.container {
+
+    padding: 0 16px;
+  
+}
+
+.card h2 {
+
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.card p {
+
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: center;
+
+}
+  
+.container::after, .row::after {
+
+    content: "";
+    clear: both;
+    display: table;
+  
+}
+
+.title {
+
+    color: grey;
+
+}
+
+.column {
+    
+    margin-right: 15px;
+    float: left;
+    width: 15.15%;
+    padding: 22px;
+    height: auto;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+/* .wrapper-home-photo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+
+#section .banner {
+  
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    
+    grid-column-gap: 100px;
+    align-items: center;
+  }
+  
+ #section .banner img {
+     padding-left: 1px;
+    width: 60%;
+    height: 100%;
+  }  */
+
+    body,h1 {font-family: "Raleway", sans-serif}
+            body, html {height: 100%}
+            .bgimg {
+            background-image: url('/w3images/forestbridge.jpg');
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+            }
